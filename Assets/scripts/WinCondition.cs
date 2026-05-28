@@ -10,7 +10,6 @@ public class WinCondition : MonoBehaviour
         {
             Debug.Log("ganador");
             Time.timeScale = 0f;
-
             winPanel.SetActive(true);
 
         }

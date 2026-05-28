@@ -4,7 +4,7 @@ using UnityEngine.Rendering;
 public class CarSpawner : MonoBehaviour
 {
     [SerializeField] private GameObject carPrefab;
-    [SerializeField] private float spawnTime = 2f;
+    [SerializeField] private float spawnTime = 3f;
 
     private void Start()
     {

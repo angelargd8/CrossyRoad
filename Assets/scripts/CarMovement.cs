@@ -4,7 +4,7 @@ using UnityEngine.Rendering;
 public class CarMovement : MonoBehaviour
 {
     [SerializeField] private float speed = 5.0f;
-    [SerializeField] private int xMax = 30;
+    [SerializeField] private int xMax = 40;
 
 
     private void Update()
@@ -24,9 +24,8 @@ public class CarMovement : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log("El jugador ha sido atropellado");
-
-            Time.timeScale = 0f;
+            GameManager.instance.LoseGame();
+            
         }
     }
 }
