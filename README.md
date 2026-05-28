@@ -8,7 +8,7 @@ El objetivo del juego es que el jugador avance por un mapa finito, evitando carr
 https://youtu.be/QaKtduPzNNQ
 
 ### Enlace de Itch.io:
-
+https://angelargd8.itch.io/crossyroad?secret=5ypezdKqlofodQStGH9Xmh7wsn8
 
 
 ---
